@@ -1,6 +1,6 @@
 FROM golang:onbuild
 
-EXPOSE 8080
+EXPOSE 80
 
 ADD http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz /var/tmp/
 ADD index.html /go/bin/
